@@ -1,0 +1,59 @@
+table.horari{   
+    font-size: 35px;
+    border-color: seashell;
+    border-spacing: 0px;
+    text-align: center;
+
+}
+tr.head{
+    background-color: rgb(233, 71, 71);
+    color: seashell;
+    border-color: rgb(233, 71, 71);
+}
+tr.dies{
+    background-color: rgb(230, 49, 49);
+    color: seashell;
+    border-color: rgb(230, 49, 49);
+}
+td.hora{
+    background-color: rgb(255, 255, 104);
+    border-color: rgb(255, 255, 104);
+}
+td.serveis{
+    background-color: greenyellow; 
+      color: green;
+      border-color: greenyellow;
+}
+td.seguretat{
+    background-color: rgb(226, 147, 173);
+    color: rgb(145, 10, 77);
+    border-color: rgb(226, 147, 173);
+}
+td.eie{
+    background-color: rgb(156, 156, 156);
+    color: rgb(68, 66, 66);
+    border-color: rgb(156, 156, 156);
+}
+td.web{
+    background-color:aquamarine;
+    color: rgb(16, 116, 82);
+    border-color: aquamarine;
+}
+td.aplicacions{
+    background-color: rgb(32, 163, 163);
+    color: rgb(3, 79, 82);
+    border-color: rgb(32, 163, 163);
+}
+td.sistemes{
+    background-color: rgb(157, 74, 216);
+    color: rgb(94, 2, 94);
+    border-color: rgb(157, 74, 216);
+}
+td.pati{
+    background-color: rgb(238, 87, 87);
+    color: rgb(131, 3, 3);
+    border-color: rgb(238, 87, 87);
+}
+nav{
+    
+}
