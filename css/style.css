@@ -54,6 +54,28 @@ td.pati{
     color: rgb(131, 3, 3);
     border-color: rgb(238, 87, 87);
 }
-nav{
-    
+ul.menu{
+
+    overflow: hidden;
+    list-style-type: none;
+    background-color: red;
+
+}
+ul.menu li {
+    display: inline;
+    margin: 0 10px 0 0;
+    float: left;
+    width: 70px;
+}
+ul.menu li a{
+    padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: rgb(243, 45, 45);
+   border: 3px solid rgb(17, 16, 16);
+   color: seashell;
+   text-decoration: none;
+}
+ul.menu li a:hover{
+    background-color: palevioletred;
+    color: rgb(26, 16, 10);
 }
