@@ -61,19 +61,18 @@ ul.menu{
     background-color: red;
 
 }
-ul.menu li {
+ul.menu li a {
     display: inline;
-    margin: 0 10px 0 0;
+    margin: 0 25px 0 0;
     float: left;
-    width: 70px;
-}
-ul.menu li a{
+    width: 105px;
     padding: 2px 7px 2px 7px;
    color: #666;
    background-color: rgb(243, 45, 45);
    border: 3px solid rgb(17, 16, 16);
    color: seashell;
    text-decoration: none;
+   text-align: center;
 }
 ul.menu li a:hover{
     background-color: palevioletred;
