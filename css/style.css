@@ -1,3 +1,7 @@
+*{
+    padding: 0cm;
+    margin: 0cm;
+}
 table.horari{ 
     margin-top: 50px;  
     font-size: 35px;
@@ -66,13 +70,15 @@ ul.menu{
 }
 ul.menu li{
     float: left;
-    margin: 15px;
+    margin: 20px;
     padding: 5px;
 }
 ul.menu li a {
    color: rgb(161, 159, 159);
    text-decoration: none;
    font-size: 20px;
+   display: block;
+   width: 120%;
 }
 ul.menu li a:hover{
     color: seashell;

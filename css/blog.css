@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+body{
+    border: 10px solid #bdc3c7;
+    margin: 10px auto;
+    width: 75%;
+    padding: 15px;
+    font-size: 14px;
+    max-width: 700px;
+}
+ul.menu{
+    padding: 0px;
+}
+ul.menu li{
+    float: left;
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    background-color: #bdc3c7;
+    padding: 8px 0px 0px 0px;
+}
+ul.menu li:hover{
+    background-color: rgb(32, 32, 32);
+    color: seashell;
+    cursor: pointer;
+}
+.fecha{
+    color: #3498db;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.texto h2{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.reumen{
+    border-left: 3px solid #bdc3c7;
+    padding-left: 5px;
+}
+p{
+    margin-bottom: 12px;
+    font-size: 1em;
+}
+.divider
+{
+	position: relative;
+	margin-top: 30px;
+	height: 1px;
+    margin-bottom: 30px;
+}
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
