@@ -18,3 +18,8 @@ border-color: transparent;
 h1{
     font-family: 'Raleway';
 }
+@media only screen and (max-width: 410px) {
+    img{
+        width: 100%;
+    }
+}
